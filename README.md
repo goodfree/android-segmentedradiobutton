@@ -1,7 +1,7 @@
 Segmented Radio Buttons for Android
 ===================================
 
-This is my implementation of iOS's segmented controls for Android by extending RadioGroup and RadioButton. Example project included.
+这是我实现的iOS的分段控制为Android RadioGroup中延伸和单选按钮。示例项目包括.
 
 Screenshots
 -----------
@@ -11,20 +11,20 @@ Screenshots
 Usage
 -----
 
-* For text-only buttons, you just need SegmentedRadioGroup.java which extends RadioGroup, so all your standard RadioButton implementations and callbacks should work.
+* 仅文本按钮，你只需SegmentedRadioGroup.java的延伸RadioGroup中，因此，所有标准的单选按钮实现回调应该。
 
-* For image buttons, implement SegmentedRadioImageButton instead of RadioButton.
+* 对于图像按钮，实现代替单选按钮SegmentedRadioImageButton。
 
-* Drawables are included, but can easily be replaced.
+* 可绘制都包括在内，但可以很容易地进行更换。
 
-* See example project for usage
+* 例如使用项目
 
-Known Issues
+已知问题
 ------------
 
-* SegmentedRadioImageButton currently uses a custom implemented scaleType similar to CENTER_INSIDE and doesn't respect padding values. If anyone wants to extend the onDraw method to do so, that would be much appreciated.
+* SegmentedRadioImageButton目前使用自定义的实施scaleType到CENTER_INSIDE相似的，不尊重填充值。如果有人想延长OnDraw方法，这样做，那将不胜感激。
 
-* RadioGroup has a bug that calls onCheckedChangedListener multiple times when you use clearCheck() or check() programmatically. See [this](http://stackoverflow.com/questions/4519103/error-in-androids-clearcheck-for-radiogroup) for more info, and [this](https://code.google.com/p/android/issues/detail?id=4785) for a possible workaround.
+*，RadioGroup中有一个错误，当您使用或检查clearCheck（）（）编程调用onCheckedChangedListener多次。 [这]更多信息，（http://stackoverflow.com/questions/4519103/error-in-androids-clearcheck-for-radiogroup）和[这]（https://code.google.com/p/的机器人/问题/详细id=4785）的一个可能的解决方法吗？.
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vinc3m1/android-segmentedradiobutton/trend.png)](https://bitdeli.com/free "Bitdeli Badge")

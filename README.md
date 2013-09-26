@@ -24,7 +24,7 @@ Usage
 
 * SegmentedRadioImageButton目前使用自定义的实施scaleType到CENTER_INSIDE相似的，不尊重填充值。如果有人想延长OnDraw方法，这样做，那将不胜感激。
 
-*，RadioGroup中有一个错误，当您使用或检查clearCheck（）（）编程调用onCheckedChangedListener多次。 [这]更多信息，（http://stackoverflow.com/questions/4519103/error-in-androids-clearcheck-for-radiogroup）和[这]（https://code.google.com/p/的机器人/问题/详细id=4785）的一个可能的解决方法吗？.
+*，RadioGroup中有一个错误，当您使用或检查clearCheck（）（）编程调用onCheckedChangedListener多次。 [这]更多信息，（http://stackoverflow.com/questions/4519103/error-in-androids-clearcheck-for-radiogroup）和[这]（https://code.google.com/p/android/issues/detail?id=4785）的一个可能的解决方法吗？.
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vinc3m1/android-segmentedradiobutton/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
